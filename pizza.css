@@ -1,0 +1,17 @@
+#fejlec{
+    background-image: url(images/fejlec-elsokep.jpg);
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-size: cover;
+
+}
+body{
+    color: white;
+    font-family: Garnet;
+}
+.navbar{
+    display: inline-flex;
+    float:right;
+    margin-top: 0px;
+}
