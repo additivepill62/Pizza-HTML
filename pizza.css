@@ -4,12 +4,12 @@
     height: 300px;
     margin: 0 auto;
     background-size: cover;
-
 }
 body{
     color: white;
-    font-family: Garnet;
+    
 }
+
 .navbar{
     display: inline-flex;
     float:right;
