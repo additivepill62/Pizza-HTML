@@ -32,14 +32,32 @@ a {
     margin-top: -1%;
     padding: 0px;
 }
-#rolunk_bal{
-    text-align: left;
-    width: 60%;
-    float: right;
-    margin-left: 50px;
+
+
+.kozep{
+    background-color: rgb(34,34,34);
+    height: 280px;
+    width: 100%;
+
 }
 #rolunk_jobb{
     text-align: right;
     width: 40%;
-
+    padding-bottom: 0%;
+    padding-top: 20px;
+}
+#rolunk_bal{
+    text-align: left;
+    width: 40%;
+    float: right;
+    margin-left: 50px;
+    padding-right: 20%;
+    padding-top: 27px;
+    
+}
+#FOGLALJ{
+    font-weight: bold;
+}
+#szoveg{
+    font-size: 18px;
 }
