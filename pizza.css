@@ -79,3 +79,76 @@ h1{
     float: none;
     
 }
+
+.menu1{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.menu2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.ajanlataink{
+    text-align: center;
+    font-size: 15px;
+}
+
+.szoveg{
+    text-align: center;
+    margin-left: 260px;
+    margin-right: 260px;
+    
+}
+
+#elemek{
+    text-align: center;
+    margin: 20px;
+    border-color: white ;
+    margin-top: 5%;
+
+}
+.pizza{
+    color: white;
+    border: 1px, solid, white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px white solid;
+}
+
+
+.menu{
+    color: white;
+    border: 1px, solid, white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px white solid;
+}
+
+
+.italok{
+    color: white;
+    border: 1px, solid, white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px white solid;
+}
+
+
