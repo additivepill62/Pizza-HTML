@@ -225,7 +225,7 @@ h1{
     grid-column-gap: 15px;
     grid-row-gap: 15px; 
     width: 60%;
-    
+    height:500px;
     margin: 0 auto;
     }
     
@@ -240,3 +240,32 @@ h1{
         object-fit: cover;
         
     }
+.specialitas{
+    background-color: rgb(34,34,34);
+    padding-bottom: 30px;
+}
+#hr-nyitva{
+    width: 40%;
+}
+.napok{
+    width: 20%;
+    padding-left: 35%;
+}
+#szeretettel{
+    text-align: right;
+    width: 30%;
+}
+footer hr{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#also_vonal{
+    width: 70%;
+}
+.feherekny{
+    padding-left: 35%;
+}
+.feherekny, .napok{
+    margin-top: -2%;
+}
