@@ -248,24 +248,48 @@ h1{
     width: 40%;
 }
 .napok{
-    width: 20%;
-    padding-left: 35%;
+
+
+    margin-right: 5%;
 }
 #szeretettel{
     text-align: right;
-    width: 30%;
+    margin-right: 5%;
 }
 footer hr{
-    width: 30%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 #also_vonal{
     width: 70%;
+    
 }
-.feherekny{
-    padding-left: 35%;
+
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div6 { grid-area: 1 / 1 / 16 / 7; }
+    .div7 { grid-area: 1 / 7 / 16 / 11; }
+    .div8 { grid-area: 1 / 11 / 16 / 16; 
+            margin-right: 30%;
+            margin-left: 5%;}
+    
+.alsocumo{
+    margin-top: 30px;
 }
-.feherekny, .napok{
-    margin-top: -2%;
+footer, a{
+    background-color: black;
+    color: white;
+}
+#lablec{
+    text-align: center;
+    float: none;
 }
