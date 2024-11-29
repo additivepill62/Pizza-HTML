@@ -26,6 +26,7 @@ body{
     margin-left: 10px;
     margin-right: 15px; 
 }
+
 li {
    float: right;
 }
@@ -37,6 +38,8 @@ a {
 #p{
     margin-top: -1%;
     padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
 }
 h1{
     margin-left: 20px;
@@ -45,31 +48,14 @@ h1{
 
 .kozep{
     background-color: rgb(34,34,34);
-    height: 300px;
-    width: 100%;
+}
 
-
-}
-#rolunk_jobb{
-    text-align: right;
-    width: 40%;
-    padding-bottom: 0%;
-    padding-top: 20px;
-}
-#rolunk_bal{
-    text-align: left;
-    width: 40%;
-    float: right;
-    margin-left: 50px;
-    padding-right: 20%;
-    padding-top: 27px;
-    
-}
 #FOGLALJ{
     font-weight: bold;
 }
 #szoveg{
     font-size: 18px;
+    
 }
 
 .boxharom{
@@ -228,7 +214,6 @@ h1{
     height:500px;
     margin: 0 auto;
     }
-    
     .div1 { grid-area: 1 / 1 / 6 / 7; }
     .div2 { grid-area: 1 / 7 / 7 / 10; }
     .div3 { grid-area: 6 / 1 / 10 / 4; }
@@ -238,7 +223,6 @@ h1{
         width: 100%;
         height: 100%;
         object-fit: cover;
-        
     }
 .specialitas{
     background-color: rgb(34,34,34);
@@ -248,8 +232,6 @@ h1{
     width: 40%;
 }
 .napok{
-
-
     margin-right: 5%;
 }
 #szeretettel{
@@ -260,14 +242,10 @@ footer hr{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
 }
 #also_vonal{
     width: 70%;
-    
 }
-
-
 .parent2 {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -281,7 +259,6 @@ footer hr{
     .div8 { grid-area: 1 / 11 / 16 / 16; 
             margin-right: 30%;
             margin-left: 5%;}
-    
 .alsocumo{
     margin-top: 30px;
 }
@@ -297,18 +274,31 @@ footer, a{
     text-align: center;
     margin: 0 auto;
 }
-
-
 .parent3 {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 20px;
     grid-row-gap: 0px;
+    background-color: rgb(34,34,34);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(171, 171, 171);
     }
-    
     .div9 { grid-area: 1 / 1 / 6 / 9; 
             text-align: right;}
     .div10 { grid-area: 1 / 9 / 6 / 21; 
-            text-align: left;}
-    
+            text-align: left;
+            padding-right: 200px;}
+.parent3 h2, #FOGLALJ{
+    color: white;
+}
+@media only screen and (max-width: 900px) {
+    .div10{
+        padding-right: 0px;
+    }
+    .parent{
+        width: 90%;
+    }
+
+  }
