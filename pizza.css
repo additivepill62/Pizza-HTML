@@ -91,51 +91,28 @@ h1{
 
 #elemek{
     text-align: center;
-    margin: 20px;
+
     border-color: white ;
     margin-top: 5%;
+    margin: 0 auto;
 
 }
-.pizza{
-    color: white;
-    border: 1px, solid, white;
-    padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: inline;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 20px;
-    border: 1px white solid;
-}
+
 
 
 .menu{
     color: white;
     border: 1px, solid, white;
-    padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 15px 50px  ;
+
     display: inline;
-    margin-left: 2%;
-    margin-right: 2%;
+
     font-size: 20px;
     border: 1px white solid;
 }
 
 
-.italok{
-    color: white;
-    border: 1px, solid, white;
-    padding: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: inline;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 20px;
-    border: 1px white solid;
-}
+
 
 
 .gallery {
@@ -293,6 +270,27 @@ footer, a{
 .parent3 h2, #FOGLALJ{
     color: white;
 }
+.parent4 {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0 auto;
+
+    }
+    
+    .div11 { grid-area: 1 / 1 / 8 / 21; 
+    margin-bottom: 3%;}
+    .div12 { grid-area: 8 / 1 / 11 / 8; 
+        ;
+       }
+    .div13 { grid-area: 8 / 8 / 11 / 14; 
+        }
+    .div14 { grid-area: 8 / 14 / 11 / 21; 
+        
+        }
+
 @media only screen and (max-width: 900px) {
     .div10{
         padding-right: 0px;
