@@ -243,14 +243,7 @@ footer, a{
     background-color: black;
     color: white;
 }
-#lablec{
-    text-align: center;
-    float: none;
-}
-#webnode{
-    text-align: center;
-    margin: 0 auto;
-}
+
 .parent3 {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
@@ -290,6 +283,23 @@ footer, a{
     .div14 { grid-area: 8 / 14 / 11 / 21; 
         
         }
+.div11, .div12, .div13, .div14{
+    
+}
+
+
+        #footer{
+
+            width: 60%;
+            height: 30vh;
+            background-color: black;
+            margin: 0 auto;
+            text-align: center;
+           }
+    
+           
+
+
 
 @media only screen and (max-width: 900px) {
     .div10{
