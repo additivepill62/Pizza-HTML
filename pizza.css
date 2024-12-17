@@ -5,7 +5,29 @@
     margin: 0 auto;
     background-size: cover;
     background-position: 40%;
+    text-decoration: none;
 }
+#cim {
+    padding-top: 20px;
+    margin-left: 30px;
+    padding-right: 60%;
+    margin-right: 500px;
+}
+
+
+.pontok {
+    float: right;
+    margin-top: -20px;
+    margin-right: 1%;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+
+
+
 body{
     background-color: black;
     color: white;
@@ -39,11 +61,7 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 19px;
 }
-h1{
-    padding-top: 20px;
-    margin-left: 30px;
 
-}
 
 .kozep{
     background-color: rgb(34,34,34);
@@ -85,6 +103,7 @@ h1{
     text-align: center;
     margin-left: 260px;
     margin-right: 260px;
+
     
 }
 
@@ -196,6 +215,7 @@ h1{
     .div3 { grid-area: 6 / 1 / 10 / 4; }
     .div4 { grid-area: 6 / 4 / 10 / 7; }
     .div5 { grid-area: 7 / 7 / 10 / 10; }
+    
     .gallery__img {
         width: 100%;
         height: 100%;
@@ -342,7 +362,7 @@ footer, a{
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     .div10{
         padding-right: 0px;
     }
@@ -352,10 +372,14 @@ footer, a{
     .parent4{
         height: 50vh;
     }
+    .szoveg{
+        width: 93%;
+        margin: 0 auto;
+    }
     .div11{
-        margin-bottom: 20px;
+        
     }
     .div12, .div13, .div14{
-        margin-top: 40px;
+
     }
   }
