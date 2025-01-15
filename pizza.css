@@ -6,7 +6,6 @@
     background-size: cover;
     background-position: 40%;
     text-decoration: none;
-
 }
 #cim {
     padding-top: 20px;
@@ -14,8 +13,6 @@
     padding-right: 60%;
     margin-right: 500px;
 }
-
-
 .pontok {
     float: right;
     margin-top: -20px;
@@ -25,10 +22,6 @@
     color: white;
     background-color: transparent;
 }
-
-
-
-
 body{
     background-color: black;
     color: white;
@@ -44,28 +37,23 @@ nav {
     display: flex;
     align-items: center;
 }
- 
 .menu31 {
     display: flex;
     list-style-type: none;
 }
- 
 .menu31 li {
     margin-right: 20px;
     font-weight: bold;
     color: white;
 }  
- 
 #menu30 {
     display: none;
 }
- 
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
- 
 .hamburger span {
     width: 25px;
     height: 3px;
@@ -81,11 +69,9 @@ nav {
     margin-left: 10px;
     margin-right: 15px; 
 }
-
 li {
    float: right;
 }
-  
 a {
    display: block;
    background-color: #dddddd;
@@ -96,8 +82,6 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 19px;
 }
-
-
 .kozep{
     background-color: rgb(34,34,34);
 }
@@ -107,50 +91,36 @@ a {
 }
 #szoveg{
     font-size: 18px;
-    
 }
-
 .boxharom{
-    
     width: 60%;
     text-align: center;
     float: none;
-    
 }
-
 .menu1{
     background-color: black;
     height: 350px;
     width: 100%;
 }
-
 .menu2{
     text-align: center;
     margin-top: 5%;
 }
-
 .ajanlataink{
     text-align: center;
     font-size: 15px;
 }
-
 .szoveg{
     text-align: center;
     margin-left: 260px;
     margin-right: 260px;
-
-    
 }
-
 #elemek{
     text-align: center;
-
     border-color: white ;
     margin-top: 5%;
     margin: 0 auto;
-
 }
-
 .menu76{
     color: white;
     margin-top: -5%;
@@ -161,9 +131,7 @@ a {
     color: white;
     border: 1px, solid, white;
     padding: 15px 50px  ;
-
     display: inline;
-
     font-size: 20px;
     border: 1px white solid;
 }
@@ -183,41 +151,33 @@ a {
     .div3 { grid-area: 6 / 1 / 10 / 4; }
     .div4 { grid-area: 6 / 4 / 10 / 7; }
     .div5 { grid-area: 7 / 7 / 10 / 10; }
-    
     .gallery__img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
 .specialitas{
     background-color: rgb(34,34,34);
     padding-bottom: 30px;
     padding-top: 7px;
 }
-
 #hr-nyitva{
     width: 40%;
 }
-
 .napok{
     margin-right: 5%;
 }
-
 #szeretettel{
     text-align: right;
     margin-right: 5%;
 }
-
 footer hr{
     margin-left: auto;
     margin-right: auto;
 }
-
 #also_vonal{
     width: 70%;
 }
-
 .parent2 {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -225,10 +185,8 @@ footer hr{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-    
     .div6 { grid-area: 1 / 1 / 15 / 7; }
-    .div7 { grid-area: 1 / 7 / 15 / 10; 
-                
+    .div7 { grid-area: 1 / 7 / 15 / 10;    
     }
     .div8 { grid-area: 1 / 10 / 15 / 15; 
             margin-right: 40%;
@@ -236,12 +194,10 @@ footer hr{
 .alsocumo{
     margin-top: 30px;
 }
-
 footer, a{
     background-color: black;
     color: white;
 }
-
 .parent3 {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
@@ -261,7 +217,6 @@ footer, a{
 .parent3 h2, #FOGLALJ{
     color: white;
 }
-
 .parent4 {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
@@ -270,9 +225,7 @@ footer, a{
     grid-row-gap: 0px;
     margin: 0 auto;
     height: 45vh;
-    
     }
-    
     .div11 { grid-area: 1 / 1 / 8 / 21; }
     .div12 { grid-area: 8 / 1 / 11 / 8; 
         float: right;
@@ -281,15 +234,11 @@ footer, a{
     .div13 { grid-area: 8 / 8 / 11 / 14; 
         margin: 0 auto;}
     .div14 { grid-area: 8 / 14 / 11 / 21; 
-        
         }
-
 .div12, .div13, .div14{
     margin-top: 10px;
 }
-
 #footer{
-
     padding-top: 20px;
     width: 60%;
     height: 5vh;
@@ -298,7 +247,6 @@ footer, a{
     text-align: center;
     margin-bottom: 5%;
 }
-    
 #p2{
     margin-top: -7%;
     margin-left: 47%;
@@ -321,7 +269,6 @@ footer, a{
     font-size: 15px;
     font-style: italic;
     width: 100%;
-    
 }
 #p5{
     margin-top: -15%;
@@ -337,7 +284,45 @@ footer, a{
     font-size: 15px;
     font-style: italic;
 }
-
+nav {
+    
+    color: white;
+    padding: 10px 20px;
+}
+.menu76 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-items li {
+    margin: 0 10px;
+}
+.menu-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background: none;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+}
+#BRRRR{
+    display: none;
+}
 @media only screen and (max-width: 1000px) {
     .szoveg{
         width: 72%;
@@ -346,7 +331,6 @@ footer, a{
     .div10{
         padding-right: 20%;
     }
-
     #p3{
         margin-top: -13%;
         margin-left: 5%;
@@ -354,7 +338,6 @@ footer, a{
         font-size: 15px;
         font-style: italic;
         width: 100%;
-        
     }
     #p4{
         margin-top: -13%;
@@ -363,15 +346,11 @@ footer, a{
         font-size: 15px;
         font-style: italic;
         width: 100%;
-        ;
     }
-
+    #BRRRR{
+        display: none;
+    }
 }
-
-
-
-
-
 @media only screen and (max-width: 959px) {
     #p4{
         margin-top: -20%;
@@ -382,20 +361,10 @@ footer, a{
         width: 100%;
         text-align: center;
     }
-}
-
-
-@media only screen and (max-width: 500px) {
-    .div7 { grid-area: 1 / 6 / 15 / 11; 
-        width: 100%; 
+    #BRRRR{
+        display: none;
     }
-    .menu76{
-        margin-top: -4px;
-    }
-
 }
-
-
 @media only screen and (max-width: 898px) {
     #p3{
         margin-top: -26%;
@@ -407,10 +376,6 @@ footer, a{
         text-align: center;
     }
 }
-
-
-
-
 @media only screen and (max-width: 768px) {
     .div10{
         padding-right: 2px;
@@ -425,21 +390,17 @@ footer, a{
         margin: 0 auto;
     }
     .div6 { grid-area: 1 / 1 / 15 / 6; 
-        
     }
     .div7 { grid-area: 1 / 7 / 15 / 11; 
         width: 100%;
-        
     }
     .div8 { grid-area: 1 / 10 / 15 / 15; 
         margin-left: 25%;
         margin-right: 0px;
         width: 80%;
     }
-    
     #fejlec{
         padding-top: 10px;
-     
     }
     #footer{
         margin-bottom: 10%;
@@ -448,7 +409,6 @@ footer, a{
     #alsovonal{
         width: 100%;
     }
-
     #p4{
     margin-top: -13%;
     margin-left: 4%;
@@ -456,7 +416,6 @@ footer, a{
     font-size: 15px;
     font-style: italic;
     width: 100%;
-    
     }
     #p3{
         margin-top: -13%;
@@ -465,7 +424,6 @@ footer, a{
         font-size: 15px;
         font-style: italic;
         width: 100%;
-        
     .menu31 {
         display: none;
         flex-direction: column;
@@ -474,109 +432,163 @@ footer, a{
         right: 200%;
         width: 100%;
       }
-   
       .menu31 li {
         margin: 10px 0;
         text-align: center;
       }
-   
       .hamburger {
         display: flex;
       }
-   
       #menu:checked + .hamburger + .menu31 {
         display: flex;
       }
-  
   }
-}
-
-
-
-
-
-nav {
-    
-    color: white;
-    padding: 10px 20px;
-}
-
-.menu76 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu-items {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu-items li {
-    margin: 0 10px;
-}
-
-.menu-items a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    background: none;
-}
-
-.hamburger {
+  .menu-items {
     display: none;
     flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
+    background-color: rgb(34,34,34);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 120%;
 }
-
-.hamburger div {
-    width: 25px;
-    height: 3px;
-    margin: 3px 0;
+.menu-items li {
+    text-align: center;
+    margin: 10px 0;
 }
-
-@media (max-width: 768px) {
-    .menu-items {
-        display: none;
-        flex-direction: column;
-        background-color: rgb(34,34,34);
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 120%;
-    }
-
-    .menu-items li {
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    .menu-items a {
-        font-size: 18px;
-    }
-
-    .hamburger {
-        display: flex;
-        color: black;
-    }
-
-    #menu-toggle:checked + .menu-items {
-        display: flex;
+.menu-items a {
+    font-size: 18px;
+}
+.hamburger {
+    display: flex;
+    color: black;
+}
+#menu-toggle:checked + .menu-items {
+    display: flex;
+}
+.menu76{
+    padding: 0px 0px 0px 0px;
+    margin-top: -6px;
+}
+}
+@media only screen and (max-width: 500px) {
+    .div7 { grid-area: 1 / 6 / 15 / 11; 
+        width: 100%; 
     }
     .menu76{
-        padding: 0px 0px 0px 0px;
-        margin-top: -6px;
+        margin-top: -4px;
     }
+    #p3{
+        margin-top: -50%;
+        margin-left: 0%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-style: italic;
+        width: 100%;
+    }
+    #p4{
+        margin-top: -48%;
+        margin-left: 3%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-style: italic;
+        width: 100%;
+    }
+}
+@media (max-width: 481px){
+    .parent4{
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        height: 61vh;
+    }
+    .div12{grid-area: 7 / 7 / 11 / 15;
+        text-align: center;
+    }
+    .div13{
+        grid-area: 9 / 1 / 11 / 21;
+    }
+    .div14{
+        grid-area: 11 / 7    / 11 / 15;
+        padding-bottom: 40px;
+    }
+    .div11{
+        height: 250px;
+    }
+    .parent2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        .div6 { grid-area: 1 / 1 / 2 / 2; }
+        .div8 { grid-area: 7 / 1 / 9 / 2; 
+            padding-left: 0px;
+            margin-left: 0px;
+            width: 100%;
+        }
+        .div7 { grid-area: 2 / 1 / 7 / 2; 
+            margin-top: -10%;
+        }
+        #szeretettel br{
+                display: none;
+        }
+        #footer{
+            margin-bottom: 21%;
+            width: 100%;
+        }
+        .footer2{
+            margin-top: -30%;
+        }
+        #p2{
+            margin-top: -10%;
+            margin-left: 44%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
+            width: 50%;
+        }
+        #p3{
+            margin-top: -30%;
+            margin-left: 0%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
+            width: 100%;
+        }
+        #p4{
+            margin-top: -48%;
+            margin-left: 20%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
+            width: 50%;
+        }
+        #p5{
+            margin-top: -20%;
+            margin-left: 39%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
+            width: 50%;
+        }
+        #p6{
+            margin-top: -20%;
+            margin-left: 35%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
+            width: 100%;
+            padding-right: 0px;
+            margin-right: 0px;
+            width: 50%;
+        }
 }
 @media (max-width: 385px) {
     .div9 {
         grid-area: 1 / 19/ 2 / 1;
         text-align: right;
     }
-
     .div10 {
         grid-area: 2 / 1 / 21 / 20;
         text-align: left;
@@ -585,23 +597,18 @@ nav {
         padding-top: 0px;
         height: 400px;
     }
-
-
-
-
     .div1 {
         grid-area: 6 / 1 / 5 / 12;
         margin-top: -30%;
     }
     .div2 {
-        
         grid-area: 16 / 1 / 20 / 12;
     }
     .div3 {
-        
         grid-area: 6 / 1 / 12 / 12;
     }
     .div4 {
+        margin-top: 150px;
         grid-area: 12 / 1 / 15 / 12;
     }
     .div5 {
@@ -614,10 +621,7 @@ nav {
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
-        
         .div6 { grid-area: 1 / 1 / 2 / 2; 
-            
-
         }
         .div8 { grid-area: 7 / 1 / 9 / 2; 
             padding-left: 0px;
@@ -628,9 +632,7 @@ nav {
             margin-top: -10%;
         }
         #szeretettel br{
-            
                 display: none;
-            
         }
         #footer{
             margin-bottom: 21%;
@@ -643,12 +645,9 @@ nav {
         .szoveg{
             width: 100%;
         }
-
-
     .specialitas{
-        height: 1700px;
+        height: 1750px;
     }
-
     .parent4{
         grid-template-columns: repeat(20, 1fr);
         grid-template-rows: repeat(10, 1fr);
@@ -668,58 +667,64 @@ nav {
     .div11{
         height: 250px;
     }
-}
-@media (max-width: 481px){
-    .parent4{
-        grid-template-columns: repeat(20, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-        height: 61vh;
+    #p4{
+        margin-top: -13%;
+        margin-left: 23%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-style: italic;
+        width: 100%;
+        padding-right: 0px;
+        margin-right: 0px;
+        width: 50%;
     }
-    .div12{
-        grid-area: 7 / 7 / 11 / 15;
-        text-align: center;
-    }
-    .div13{
-        grid-area: 9 / 1 / 11 / 21;
-    }
-    .div14{
-        grid-area: 11 / 7    / 11 / 15;
-        padding-bottom: 40px;
-    }
-    .div11{
-        height: 250px;
-    }
-    .parent2 {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(9, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }
-        
-        .div6 { grid-area: 1 / 1 / 2 / 2; 
-            
-
-        }
-        .div8 { grid-area: 7 / 1 / 9 / 2; 
-            padding-left: 0px;
-            margin-left: 0px;
+    #p5{
+        margin-top: -10%;
+            margin-left: 44%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
             width: 100%;
-        }
-        .div7 { grid-area: 2 / 1 / 7 / 2; 
-            margin-top: -10%;
-        }
-        #szeretettel br{
-            
-                display: none;
-            
-        }
-        #footer{
-            margin-bottom: 21%;
+            padding-right: 0px;
+            margin-right: 0px;
+            width: 50%;
+    }
+    #p3{
+        margin-top: -10%;
+            margin-left: 26%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
             width: 100%;
-        }
-        .footer2{
-            margin-top: -30%;
-        }
-        
+            padding-right: 0px;
+            margin-right: 0px;
+            width: 50%;
+    }
+    #p6{
+        margin-top: -10%;
+            margin-left: 44%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-style: italic;
+            width: 100%;
+            padding-right: 0px;
+            margin-right: 0px;
+            width: 50%;
+    }
+    .div5{
+        height: 75%;
+    }
+    .div10{
+        width: 325px;
+    }
+    .div3{
+        height: 200%;
+        margin-bottom: 30px;
+    }
+    #BRRRR{
+        display:block;
+    }
+    .parent3{
+        padding-bottom: 22%;
+    }
 }
